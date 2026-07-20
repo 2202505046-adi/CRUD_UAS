@@ -1,4 +1,4 @@
-@include('layout.header')@
+@include('layout.header')
     <h3>Kategori</h3>
     <a href="{{route('kategori.create')}}" class="tombol">Tambah</a>
     <table>
