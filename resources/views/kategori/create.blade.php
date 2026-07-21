@@ -1,5 +1,5 @@
 @include('layout.header')
-    <h3>Buat Kategori</h3>
+    <h3>Tambah Kategori</h3>
     <form action="{{ route('kategori.store') }}"method="post">
         @csrf
         <div class="class-group">
