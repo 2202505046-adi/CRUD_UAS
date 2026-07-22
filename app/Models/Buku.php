@@ -3,7 +3,9 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use App\Models\Kategori;
+use App\Models\Penerbit;
 class Buku extends Model
 {
 protected $guarded = [];
@@ -17,4 +19,4 @@ protected $guarded = [];
         return $this->belongsTo(Penerbit::class);
     }
 }
-}
+
